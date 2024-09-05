@@ -1,0 +1,31 @@
+# Ignore arquivos compilados
+*.o
+*.out
+*.a
+*.so
+*.exe
+*.dll
+
+# Ignore diretórios de build
+build/
+dist/
+
+# Ignore o ambiente virtual do Poetry
+.venv/
+
+# Ignore arquivos temporários do editor de texto
+*.swp
+*.swo
+*~
+
+# Ignore diretórios de cache
+__pycache__/
+*.py[cod]
+*.log
+
+# Ignore o arquivo de banco de dados SQLite
+*.db
+
+# Ignore arquivos de configuração específicos do ambiente
+.env
+
